@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow</title>
+    <style>
+        .box {
+            display: flex;
+        }
+
+        .child {
+            border: 2px solid black;
+            margin: 6px;
+            box-shadow: 5px 5px 10px blue;
+        }
+
+        .child1 {
+            border: 2px solid black;
+            margin: 6px;
+            box-shadow: inset 5px 5px 10px blue;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 20px blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Box Shadow and Text Shadow in Css</h1>
+    <div class="box" id="div">
+        <div class="child" id="child1">
+            <h1>Hello World</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur veniam incidunt suscipit quidem laborum
+                earum sapiente aperiam nostrum ullam laboriosam, soluta repudiandae quod reprehenderit quae et,
+                necessitatibus reiciendis, minima vero.</p>
+        </div>
+        <div class="child" id="child2">
+            <h1>Hello World</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur veniam incidunt suscipit quidem laborum
+                earum sapiente aperiam nostrum ullam laboriosam, soluta repudiandae quod reprehenderit quae et,
+                necessitatibus reiciendis, minima vero.</p>
+        </div>
+        <div class="child1" id="child3">
+            <h1>Hello World</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur veniam incidunt suscipit quidem laborum
+                earum sapiente aperiam nostrum ullam laboriosam, soluta repudiandae quod reprehenderit quae et,
+                necessitatibus reiciendis, minima vero.</p>
+        </div>
+        <div class="child1" id="child4">
+            <h1>Hello World</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur veniam incidunt suscipit quidem laborum
+                earum sapiente aperiam nostrum ullam laboriosam, soluta repudiandae quod reprehenderit quae et,
+                necessitatibus reiciendis, minima vero.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

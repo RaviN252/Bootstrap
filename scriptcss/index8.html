@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: opx;
+        }
+
+        .firstpara {
+            height: 200px;
+            width: 500px;
+            border: 2px solid blue;
+            border-radius: 8px;
+            background-color: aqua;
+            background-image: url(assets/image.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 300px;
+            justify-content: center;
+        }
+
+        .div1 {
+            border-radius: 10px;
+            border: 4px solid rgb(13, 83, 104);
+            background-color: burlywood;
+            width: 600px;
+            /* Margin for all sides */
+            margin: 25px;
+            box-sizing: border-box;
+            padding: 30px;
+
+        }
+
+        .btn {
+            text-decoration: none;
+            margin: 10px;
+            border: solid black;
+            background-color: aqua;
+            border-radius: 4px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .btn:visited {
+            background-color: rgb(204, 22, 195);
+            color: black;
+        }
+
+        .btn:active {
+            background-color: #fff;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <h1>Pseudo Selectors</h1>
+        <p class="firstpara">Hover visited and active <br>What are Pseudo-classes? A pseudo-class is used to define a
+            special state of an element. For example, it can be used to: Style an element when a user mouses ...
+        </p>
+        <a href="https://www.youtube.com/watch?v=TtHQLdCSUow&list=PLUZkVL-W-8GIKmd5HqE2iuXASOi5KOkOK&index=20"
+            class="btn" target="_blank">Visit</a>
+        <button class="btn">click</button>
+
+    </div>
+
+
+</body>

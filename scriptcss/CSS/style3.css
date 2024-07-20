@@ -1,0 +1,25 @@
+/* p{
+    background-color: aqua;
+    color: black;
+    border: 2px solid blue;
+} */
+/* .div1{
+    background-color: aqua;
+    border: 2px solid blue;
+}
+#para1{
+    color: brown;
+    border: 2px solid black;
+} */
+h1,h3,p{
+    background-color: aqua;
+}
+.div1  {
+    background-color: rgb(43, 226, 98);
+
+}
+.div2 p {
+    background-color: blueviolet;
+
+}
+

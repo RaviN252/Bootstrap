@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            background-color: blue;
+
+        }
+
+        .child {
+            background-color: bisque;
+            height: 200px;
+            width: 200px;
+            position: relative;
+            animation-name: naruto;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+            animation-timing-function: ease-in-out;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes naruto {
+            from {
+                width: 200px;
+            }
+
+            to {
+                width: 900px
+            }
+        }
+
+        .child1 {
+            background-color: bisque;
+            height: 200px;
+            width: 200px;
+            position: relative;
+            animation-name: naruto1;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            /* animation-timing-function: ease-in; */
+            /* animation-timing-function: ease-out; */
+            animation-timing-function: ease-in-out;
+            /* animation-delay: 2s; */
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes naruto1 {
+
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                left: 0px;
+                top: 200px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1> <mark> Animation , Transition, and Transformation</mark></h1>
+    <h1><b>Animation</b></h1>
+    <div class="box" id="box">
+        <div class="child" id="child">Hello World</div>
+    </div>
+
+    <h1> <b> Animation </b></h1>
+    <div class="box" id="box">
+        <div class="child1" id="child">Hello World</div>
+    </div>
+
+
+
+</body>
+
+</html>

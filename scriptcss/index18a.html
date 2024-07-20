@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            display: flex;
+            height: 250px;
+            justify-content: center;
+            align-items: center;
+            background-color: blue;
+
+        }
+
+        .child {
+            background-color: bisque;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            transition-property: background-color;
+            transition-duration: 4s;
+        }
+
+        .child:hover {
+            background-color: rebeccapurple;
+        }
+
+        .child1 {
+            background-color: bisque;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: ease-in;
+            transition-delay: 1s;
+        }
+
+        .child1:hover {
+            background-color: aqua;
+            width: 150px;
+            height: 150px;
+        }
+
+        .child2 {
+            background-color: burlywood;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            transition-property: all;
+            transition-duration: 2s;
+        }
+
+        .child2:hover {
+            background-color: greenyellow;
+            height: 150px;
+            width: 150px;
+            /* transform: rotate(50%); */
+            transform: rotate(360deg);
+            /* transform: skew(45deg); */
+            /* transform: scale(2); */
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1> <mark> Animation , Transition, and Transformation</mark></h1>
+    <h1><b>Transition</b></h1>
+    <div class="box" id="box">
+        <div class="child" id="child">Hello World</div>
+    </div>
+    <h1><b>Transition a </b></h1>
+    <div class="box" id="box">
+        <div class="child1" id="child">Hello World</div>
+    </div>
+    <h1><b>Transformation</b></h1>
+    <div class="box" id="box">
+        <div class="child2" id="child">Hello World</div>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

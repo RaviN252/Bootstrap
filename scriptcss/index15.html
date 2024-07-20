@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            border: 2px solid black;
+            margin: 10px;
+            width: 200px;
+            height: 100px;
+
+        }
+
+        #div1 {
+            background-color: aquamarine;
+        }
+
+        #div2 {
+            background-color: yellow;
+            visibility: hidden;
+        }
+
+        #div3 {
+            background-color: orchid;
+
+        }
+
+        #div4 {
+            position: relative;
+            background-color: sandybrown;
+            top: 30px;
+            z-index: -1;
+
+        }
+
+        #div01 {
+            background-color: aquamarine;
+        }
+
+        #div02 {
+            background-color: yellow;
+            display: none;
+        }
+
+        #div03 {
+            background-color: orchid;
+        }
+
+        #div04 {
+            background-color: sandybrown;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><mark> Visibility, Opacity, Z-index</mark></h1>
+    <h2> Visibility when we use this propery <mark> visibility: hidden;</mark> the item will be vanished but space will
+        be occupied </h2>
+    <div class="box" id="div1">Hello World FIrst</div>
+    <div class="box" id="div2">Hello World Second</div>
+    <div class="box" id="div3">Hello World Third</div>
+    <h2>Z-index and ist proerty it is used when you want toover lap any part of boxes then we use z-index <mark></mark>
+    </h2>
+    <div class="box" id="div4">Hello World Fourth</div>
+    <div class="box" id="div5">Hello World Fifth</div>
+
+
+
+    <h2>Visibility when we use this propery <mark> display: none;</mark> the item will be wanished and space will also
+        be vanished</h2>
+    <div class="box" id="div01">Hello World FIrst</div>
+    <div class="box" id="div02">Hello World Second</div>
+    <div class="box" id="div03">Hello World Third</div>
+
+    <h3>Opacity means making the color or visibility low or dim <mark>opacity: 0.5;</mark></h3>
+    <div class="box" id="div04">Hello World Fourth</div>
+</body>
+
+</html>
