@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        [class^="container"] {
+            background-color: rgb(170, 245, 245);
+            border: 1px solid black;
+            padding-bottom: 300px;
+        }
+
+        [class^="col"] {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            background-color: aquamarine;
+            border: 1px solid rgb(2, 2, 2);
+            font-size: 1.5rem;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            padding: 10px;
+            text-align: center;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .ide {
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>GRID SYSTEMS</h1>
+    <div class="container">
+        <p> 3 Equal Boxes in All Devices</p>
+        <div class="row" id="ide">
+            <div class="col">Col</div>
+            <div class="col">Col</div>
+            <div class="col">Col</div>
+        </div>
+        <p> 2 Equal Boxes in All Devices</p>
+        <div class="row">
+            <div class="col">Col</div>
+            <div class="col">Col</div>
+        </div>
+        <p>Settings 1 Column width wider</p>
+        <div class="row">
+            <div class="col">Col</div>
+            <div class="col-6">Col-6</div>
+            <div class="col">Col</div>
+        </div>
+        <div class="row">
+            <div class="col">Col</div>
+            <div class="col-5">Col-5</div>
+            <div class="col">Col</div>
+        </div>
+
+        <p>Stacked to Horizontal</p>
+        <div class="row">
+            <div class="col-8">Col-8</div>
+            <div class="col-4">Col-4</div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-8">Col-md-8</div>
+            <div class="col-md-4">Col-md-4</div>
+
+        </div>
+        <p>Auto width</p>
+        <div class="row">
+            <div class="col">col</div>
+            <div class="col-md-auto">col-md-auto</div>
+            <div class="col">col</div>
+        </div>
+
+        <p>Row Columns (maintain 2 columns)</p>
+        <div class="row row-cols-2">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+        <p>Row Columns (maintain columns)</p>
+        <div class="row row-cols-3">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+        <p>Row Columns (maintain 4 columns)</p>
+        <div class="row row-cols-4">
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+        <p>Row Columns (maintain 1 to 6 columns)</p>
+
+        <p>Row With Auto Columns</p>
+        <div class="row row-cols-auto">
+            <div class="col">col sample</div>
+            <div class="col">col</div>
+            <div class="col">col sample</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+        <p>Row With 4 Columns Mix Width Col-6 and 9</p>
+        <div class="row row-cols-4">
+            <div class="col">col </div>
+
+            <div class="col-9">col</div>
+            <div class="col">col</div>
+            <div class="col">col </div>
+            <div class="col-6">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col </div>
+            <div class="col">col</div>
+            <div class="col">col </div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

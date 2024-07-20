@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            background-color: rgb(15, 231, 247);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container" id="box">
+        <h1 id="size"></h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut voluptas natus excepturi accusamus. Velit illum,
+            assumenda deleniti tenetur odio quidem accusantium itaque consequatur asperiores corrupti explicabo aut odit
+            quod deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam repudiandae nihil eveniet
+            asperiores blanditiis esse ratione voluptates! Ducimus facere obcaecati adipisci corrupti blanditiis!
+            Dolores iste atque vero exercitationem sint. Minima?
+            Autem temporibus laboriosam unde sit soluta rem perferendis, sunt eveniet enim repellendus nesciunt
+            explicabo facilis minima dolorem, ducimus a ad provident eos quasi, omnis repudiandae? Officiis iusto iure
+            ex quos.</p>
+    </div>
+    <script>
+        window.onresize = function () {
+            const width = document.getElementById("box").clientWidth;
+            document.getElementById("size").innerHTML = width + " px";
+        }
+    </script>
+
+</body>
+
+</html>
